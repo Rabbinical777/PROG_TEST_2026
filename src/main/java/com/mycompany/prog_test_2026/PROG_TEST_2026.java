@@ -11,6 +11,6 @@ package com.mycompany.prog_test_2026;
 public class PROG_TEST_2026 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      HJJJH
     }
 }

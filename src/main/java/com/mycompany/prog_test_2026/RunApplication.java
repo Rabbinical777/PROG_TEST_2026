@@ -31,7 +31,7 @@ public class RunApplication {
 
         String consoleType;
 
-        // Determine which console was selected
+    
         switch (choice) {
 
             case 1:
@@ -55,7 +55,7 @@ public class RunApplication {
         System.out.print("Enter the store name: ");
                 String store = input.nextLine();
 
-        // Ask user for total sales
+       
         System.out.print("Enter the total sales: ");
         int totalSales = input.nextInt();
 

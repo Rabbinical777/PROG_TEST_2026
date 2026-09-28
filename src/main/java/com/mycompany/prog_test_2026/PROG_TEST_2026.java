@@ -28,7 +28,7 @@ public class PROG_TEST_2026 {
               System.out.println("*".repeat(50));
               
               
-              
+               System.out.println("\t\tPS5\tXBOX\tSWITCH");
               
                
  for (int i=0; i<cities.length; i++){
@@ -77,14 +77,9 @@ System.out.println("CITY WITH THE MOST sales :" + highestCity);
             
             
             
-            
-            
-            
-            
-            
-            
-            
-    }
+      }
+     
+     System.out.println("CITY WITH THE MOST sales :" + highestCity);
 }
 }
 

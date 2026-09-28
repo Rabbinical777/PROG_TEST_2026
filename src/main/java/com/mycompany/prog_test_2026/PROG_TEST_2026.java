@@ -33,7 +33,7 @@ public class PROG_TEST_2026 {
                
  for (int i=0; i<cities.length; i++){
  
-     System.out.println(cities[i] + "\t" + stats [i][0] +"\t"+ stats [i][1]);
+     System.out.println(cities[i] + "\t" + stats [i][0] +"\t"+ stats [i][1]+ "\t" + stats [i][2]);
 
     
  
@@ -55,7 +55,7 @@ public class PROG_TEST_2026 {
      for (int i=0; i<cities.length; i++){
 
     
-    int total= stats[i][0] + stats [i][1];
+    int total= stats[i][0] + stats [i][1] +  stats [i][2];
     
     System.out.println(cities[i] + "\t" + total );
     
@@ -64,13 +64,13 @@ public class PROG_TEST_2026 {
 if (total > highestCONSOLESALES){
 
 highestCONSOLESALES=total;
-//updates the highest accidents total 
+//updates the highest console sales total 
 
 
 highestCity=cities[i];
 //remeber which city has that total 
 
-System.out.println("CITY WITH THE MOST ACCIDENTS:" + highestCity);
+System.out.println("CITY WITH THE MOST sales :" + highestCity);
 
 }
             
@@ -87,3 +87,4 @@ System.out.println("CITY WITH THE MOST ACCIDENTS:" + highestCity);
     }
 }
 }
+
